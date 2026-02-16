@@ -50,3 +50,12 @@ Before running this project, ensure you have:
    ```bash
    go run cmd/main/main.go
    
+**🛠 API Endpoints**
+
+| Method | Endpoint | Description |
+| :--- | :--- | :--- |
+| **GET** | `/book/` | Get all Book |
+| **POST** | `/book/` | Create a Book |
+| **GET** | `/book/{bookId}` | Get a Book by Id |
+  **PUT** | `/book/{bookId}` | Update a Book by Id |
+  **DELETE** | `/book/{bookId}` | Delete a Book by Id |
